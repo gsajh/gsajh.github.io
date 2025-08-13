@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Local Mate - Your Local Travel Companion by Bachelor's Squad">
+    <title>Google Student Ambassador</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header / Navigation -->
+    <header class="header">
+        <div class="container">
+            <a href="#" class="logo">
+                <!-- 🔁 Replace with your actual logo -->
+                <img src="assets/logo.png" alt="Local Mate Logo">
+                <span>GSA JH </span>
+            </a>
+            
+            <nav class="navbar">
+                <ul class="nav-links">
+                    <li><a href="" class="nav-link">Gemini</a></li>
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#demo" class="nav-link">Demo</a></li>
+                    <li><a href="#docs" class="nav-link">Docs</a></li>
+                    <li><a href="#team" class="nav-link">Team</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                
+                <div class="theme-toggle">
+                    <input type="checkbox" id="theme-switch" class="theme-switch">
+                    <label for="theme-switch" class="theme-label">
+                        <i class="fas fa-sun"></i>
+                        <i class="fas fa-moon"></i>
+                        <span class="theme-ball"></span>
+                    </label>
+                </div>
+            </nav>
+            
+            <div class="hamburger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Google Student Ambassador  Jamia Hamdard </h1>
+                <p class="hero-subtitle">Connecting students with tech, innovation, and opportunities.</p>
+                <div class="hero-buttons">
+                    <a href="#demo" class="btn btn-primary">Join our community</a>
+                    <a href="https://discord.gg/8ynZNrdxfb" target="_blank" rel="noopener" class="btn btn-secondary">
+                        Discord <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <div class="container">
+            <h2 class="section-title">About The Program</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <!-- 🔁 Update About Project details here -->
+                    <p>The Google Student Ambassador Program is a global initiative by Google that empowers student leaders to bridge the gap between academia and the tech industry. As the official GSA for Jamia Hamdard, my mission is to bring cutting-edge Google technologies, learning resources, and opportunities directly to our student community.</p>
+                    <br>
+                    <h3>Our Goal</h3>
+
+                    <p>Empower Students by providing hands-on workshops, hackathons, and skill-building sessions.
+                        <br>
+                        Connect Innovators by creating a platform where students, developers, and industry experts collaborate.
+                        <br>
+                        Foster Growth by equipping students with the skills, tools, and network needed to excel in the tech ecosystem.
+                    </p>
+                    <br>
+                    <div class="features">
+                        <h3>Opportunities for You</h3>
+                        <ul class="feature-list">
+                            <li><i class="fas fa-check-circle"></i> Participate in Google-hosted events and training sessions.</li>
+                            <li><i class="fas fa-check-circle"></i> Access exclusive resources and certifications.</li>
+                            <li><i class="fas fa-check-circle"></i> Network with like-minded innovators from across the globe.</li>
+                            <li><i class="fas fa-check-circle"></i> Showcase your projects and get recognized at a higher level.</li>
+                            <li><i class="fas fa-check-circle"></i> Contribute to open-source projects and gain real-world experience.</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="tech-stack">
+                        <h3>Tech Stack</h3>
+                        <p>These are the Google and open-source tools we’ll explore, teach, and build with in our community:</p>
+                        <div class="tech-icons">
+                            <div class="tech-item">
+                                <i class="fa-solid fa-cloud"></i>
+                                <span>GCP</span>
+                            </div>
+                            <div class="tech-item">
+                                <i class="fa-solid fa-brain"></i>
+                                <span>Gemini</span>
+                            </div>
+                            <div class="tech-item">
+                                <i class="fa-solid fa-microphone-lines"></i>
+                                <span>Google Meet</span>
+                            </div>
+                            <div class="tech-item">
+                                <i class="fa-solid fa-robot"></i>
+                                <span>Dialogflow</span>
+                            </div>
+                            <!-- 🔁 Add more tech stack items if needed -->
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-image">
+                    <!-- 🔁 Replace with your project screenshot -->
+                    <img src="assets/logo2.png" alt="program logo" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Demo Section -->
+    <section id="demo" class="section demo">
+        <div class="container">
+            <h2 class="section-title"> Community Highlights</h2>
+            <div class="demo-container">
+                <!-- 🔁 Replace demo video src and link here -->
+                <div class="video-wrapper">
+                    <div class="video-placeholder" id="video-placeholder">
+                        <img src="assets/logo.png" alt="Demo Thumbnail" class="video-thumbnail">
+                        <button class="play-button" id="play-button">
+                            <i class="fas fa-play"></i>
+                        </button>
+                    </div>
+                    <iframe id="demo-video" class="video-iframe" src="https://www.youtube.com/watch?v=eY8xX0naJSg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+                </div>
+                
+                <div class="demo-actions">
+                    <a href="https://www.youtube.com/watch?v=eY8xX0naJSg" target="_blank" rel="noopener" class="btn btn-primary">
+                        View All Events <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Documentation Section -->
+    <section id="docs" class="section docs">
+        <div class="container">
+            <h2 class="section-title">Resources & Guides</h2>
+            <div class="docs-content">
+                <div class="docs-card">
+                    <div class="docs-info">
+                        <h3>Resources for Students</h3>
+                        <p>Access guides, toolkits, and learning materials curated to help you make the most out of Google technologies and GSA events.</p>
+                        
+                        <div class="docs-details">
+                            <h4>What's Included:</h4>
+                            <ul>
+                                <li><i class="fas fa-file-alt"></i> Foundations of Peer Leadership</li>
+                                <li><i class="fas fa-cogs"></i> Tech Tools in Action</li>
+                                <li><i class="fas fa-list-ul"></i> Event Best Practices </li>
+                                <li><i class="fas fa-code"></i> Community Building</li>
+                                <li><i class="fas fa-question-circle"></i> Resources for Educators & Students</li>
+                            </ul>
+                        </div>
+                        
+                        <a href="assets/google_tech.pdf" download="assets/google_tech.pdf" class="btn btn-primary">
+                            <i class="fas fa-download"></i> Download PDF
+                        </a>
+                    </div>
+                    
+                    <div class="docs-image">
+                        <!-- 🔁 Update PDF preview image if available -->
+                        <img src="assets/thumbnail.png" alt="Documentation Preview" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Documentation Section -->
+    <section id="docs" class="section docs">
+        <div class="container">
+            <h2 class="section-title">more comming  soon </h2>
+            <!-- <div class="docs-content">
+                <div class="docs-card">
+                    <div class="docs-info">
+                        <h3>Resources for Students</h3>
+                        <p>Access guides, toolkits, and learning materials curated to help you make the most out of Google technologies and GSA events.</p>
+                        
+                        <div class="docs-details">
+                            <h4>What's Included:</h4>
+                            <ul>
+                                <li><i class="fas fa-file-alt"></i> Foundations of Peer Leadership</li>
+                                <li><i class="fas fa-cogs"></i> Tech Tools in Action</li>
+                                <li><i class="fas fa-list-ul"></i> Event Best Practices </li>
+                                <li><i class="fas fa-code"></i> Community Building</li>
+                                <li><i class="fas fa-question-circle"></i> Resources for Educators & Students</li>
+                            </ul>
+                        </div>
+                        
+                        <a href="assets/google_tech.pdf" download="assets/google_tech.pdf" class="btn btn-primary">
+                            <i class="fas fa-download"></i> Download PDF
+                        </a>
+                    </div>
+                    
+                    <div class="docs-image">
+                        <!-- 🔁 Update PDF preview image if available -->
+                        <!-- <img src="assets/thumbnail.png" alt="Documentation Preview" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </div> --> -->
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="section team">
+        <div class="container">
+            <h2 class="section-title">Our Team</h2>
+            <div class="team-intro">
+                <h3>Jamia Hamdard</h3>
+                <p>The passionate leads of our campus community</p>
+            </div>
+            
+            <div class="team-grid">
+                <!-- 🔁 Add or remove team members here -->
+                <div class="team-member">
+                    <div class="member-image">
+                        <img src="adnan.png" alt="Team Member" loading="lazy">
+                    </div>
+                    <h4 class="member-name">Adnan Khan</h4>
+                    <p class="member-role">Google Student Ambassador</p>
+                    <div class="member-socials">
+                        <a href="https://github.com/addico786/" target="_blank" rel="noopener"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/adnan-khan-afridi-46595129a/" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                
+            
+                
+                <!-- Add more team members as needed -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <h2 class="section-title">Contact US</h2>
+            <div class="contact-content">
+                <div class="contact-form">
+                    <form id="contactForm" method="POST" action="">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Your College Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+                
+                <div class="contact-info">
+                    <h3>Let’s Connect & Collaborate</h3>
+                    <p>Got questions about events, resources, or joining our community? Reach out anytime — we’re here to help you grow with Google technologies.</p>
+                    
+                    <div class="social-links">
+                        <a href="https://github.com/addico786" target="_blank" rel="noopener" class="social-link">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                        <a href="https://www.linkedin.com/in/adnan-khan-afridi-46595129a" target="_blank" rel="noopener" class="social-link">
+                            <i class="fab fa-linkedin"></i> LinkedIn
+                        </a>
+                        <a href="mailto:adnandelhi2004@gmail.com" class="social-link">
+                            <i class="fas fa-envelope"></i> Email
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="#" class="logo">
+                        <img src="assets/logo.png" alt="logo">
+                        <span>Google Student Ambassador</span>
+                    </a>
+                    <p>Jamia Hamdard</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#demo">Demo</a></li>
+                        <li><a href="#docs">Docs</a></li>
+                        <li><a href="#team">Team</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="https://github.com/addico786/local_mate" target="_blank" rel="noopener">GitHub Repo</a></li>
+                        <li><a href="documentation.pdf" download>Documentation</a></li>
+                        <!-- 🔁 You can add more footer links here -->
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>Google Student Ambassador | © <span id="current-year">2025</span></p>
+                <p>Last updated: <span id="last-updated"></span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
