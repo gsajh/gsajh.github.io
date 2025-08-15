@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/jpeg/png" href="assets/logo.png">
+    <title>Google Student Ambassador</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body> 
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">GSA AI</h1>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#hero" class="nav-link">Home</a></li>
+                    <li><a href="#current-prompts" class="nav-link">Current Prompts</a></li>
+                    <li><a href="#coming-soon" class="nav-link">Coming Soon</a></li>
+                </ul>
+                <button id="dark-mode-toggle" class="dark-mode-toggle" aria-label="Toggle dark mode">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero">
+            <div class="container">
+                <h1 class="hero-title">Join the AI Journey</h1>
+                <p class="hero-subtitle">Scan. Learn. Discover.</p>
+                <div class="qr-code-main">
+                    <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://example.com/ai-campaign" alt="Main AI QR Code" class="qr-image">
+                </div>
+            </div>
+        </section>
+
+        <!-- Current Prompts Section -->
+        <section id="current-prompts" class="section">
+            <div class="container">
+                <h2 class="section-title">Current AI Prompts</h2>
+                <div class="prompts-grid">
+                    <!-- Prompt Card 1 -->
+                    <div class="prompt-card">
+                        <h3 class="prompt-title"></h3>
+                        <div class="qr-code-small">
+                            <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https%3A%2F%2Faiskillshouse.com%2Fstudent%2Fqr-mediator.html%3Fuid%3D145%26promptId%3D6" alt="Student AI Program QR" class="qr-image">
+                        </div>
+                        <button class="scan-btn" onclick="window.location.href='https://aiskillshouse.com/student/qr-mediator.html?uid=145&promptId=6'">Scan Now</button>
+                    </div>
+                    
+                    <!-- Prompt Card 2 -->
+                    <div class="prompt-card">
+                        <h3 class="prompt-title"></h3>
+                        <div class="qr-code-small">
+                            <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://example.com/become-gsa" alt="Become GSA QR" class="qr-image">
+                        </div>
+                        <button class="scan-btn" onclick="window.location.href= 'add the link here'">Scan Now</button>
+                    </div>
+                    
+                    <!-- Prompt Card 3 -->
+                    <div class="prompt-card">
+                        <h3 class="prompt-title"></h3>
+                        <div class="qr-code-small">
+                            <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://example.com/ai-tools" alt="AI Tools QR" class="qr-image">
+                        </div>
+                        <button class="scan-btn" onclick="window.location.href= 'add the link here'">Scan Now</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Coming Soon Section -->
+        <section id="coming-soon" class="section">
+            <div class="container">
+                <h2 class="section-title">Coming Soon</h2>
+                <div class="coming-soon-grid">
+                    <!-- Coming Soon Card 1 -->
+                    <div class="coming-soon-card">
+                        <i class="fas fa-lock"></i>
+                        <p>Stay Tuned for Future Prompts</p>
+                    </div>
+                    
+                    <!-- Coming Soon Card 2 -->
+                    <div class="coming-soon-card">
+                        <i class="fas fa-lock"></i>
+                        <p>Stay Tuned for Future Prompts</p>
+                    </div>
+                    
+                    <!-- Coming Soon Card 3 -->
+                    <div class="coming-soon-card">
+                        <i class="fas fa-lock"></i>
+                        <p>Stay Tuned for Future Prompts</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="back-to-top" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text">Google Student Ambassador 2025</p>
+            <div class="social-icons">
+                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
